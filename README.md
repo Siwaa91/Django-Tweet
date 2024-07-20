@@ -31,7 +31,6 @@ cd django-tweet-app
 Create a virtual environment to install the project's dependencies. This is recommended to avoid conflicts with other projects.
 
 ```bash
-Copy code
 python3 -m venv venv
 ```
 Activate the virtual environment:
@@ -39,35 +38,26 @@ Activate the virtual environment:
 On Windows:
 
 ```bash
-Copy code
 venv\Scripts\activate
 ```
 On macOS and Linux:
-```
-bash
-Copy code
+```bash
 source venv/bin/activate
 ```
 ### 3. Install Dependencies
 
 Install the necessary dependencies using `pip`.
-```
-bash
-Copy code
+```bash
 pip install -r requirements.txt
 ```
 ### 4. Apply Migrations
 Apply the database migrations to set up the database schema.
-```
-bash
-Copy code
+```bash
 python manage.py migrate
 ```
 ### 5. Run the Development Server
 Start the Django development server.
-```
-bash
-Copy code
+```bash
 python manage.py runserver
 ```
 Open your web browser and navigate to http://127.0.0.1:8000/ to see the app in action.
